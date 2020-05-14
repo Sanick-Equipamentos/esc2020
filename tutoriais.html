@@ -30,23 +30,49 @@
   </nav>
   <div class="container">
 
-      <div class="row">
-          <h3>Tutoriais de Funcionamento do ESC2020</h3>
+      <div class="row" id="tutorialinicio">
+        <ul class="collection with-header">
+          <li class="collection-header"><h4>Tutoriais de Funcionamento do ESC2020</h4></li>
+          <li class="collection-item"><a class="black-text" href="#configdata">Configuração de data e hora</a></li>
+          <li class="collection-item"><a class="black-text" href="#acessoconfiguracoes">Acesso configurações</a></li>
+          <li class="collection-item"><a class="black-text" href="#configvel">Configurar velocidade, desaceleração e número de peças para desacelerar.</a></li>
+          <li class="collection-item"><a class="black-text" href="#configtamanho">Configurar Tamanho das Peças</a></li>
+          <li class="collection-item"><a class="black-text" href="#alterarmodo">Alterar o modo: <b>Lote, Automático, Contínuo</b></a></li>
+          <li class="collection-item"><a class="black-text" href="#alteraralvo">Alterar valor alvo</a></li>
+          <li class="collection-item"><a class="black-text" href="#habilitarhistorico">Habilitar/Desabilitar Histórico</a></li>
+          <li class="collection-item"><a class="black-text" href="#ligarsistemacontagem">Ligar/Desligar sistema de contagem equipamento</a></li>
+          <li class="collection-item"><a class="black-text" href="#zerarcontagem">Zerar contagem atual </a></li>
+          <li class="collection-item"><a class="black-text" href="#novacontagem">Realizar nova contagem </a></li>
+          <li class="collection-item"><a class="black-text" href="#limparcontagem">Limpar contagens presentes na tela </a></li>
+          <li class="collection-item"><a class="black-text" href="#operarcontinuo">Operação em modo contínuo </a></li>
+          <li class="collection-item"><a class="black-text" href="#operarlote">Operação em modo lote </a></li>
+          <li class="collection-item"><a class="black-text" href="#operarautomatico">Operação em modo automático </a></li>
+          <li class="collection-item"><a class="black-text" href="#excluircampos"> Excluir campos adicionais </a></li>
+          <li class="collection-item"><a class="black-text" href="#excluirhistorico"> Excluir todos os registros do histórico </a></li>
+          <li class="collection-item"><a class="black-text" href="#configwifi">Configuração rede Wifi no equipamento </a></li>
+        </ul>
+      </div>
+
+      <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red" href="#tutorialinicio">
+          <i class="large material-icons">arrow_upward</i>
+        </a>
       </div>
 
       <div class="row">
-        <div class="col s12 ">
+        <div class="col s12" id="configdata">
             <div class="card">
               <div class="card-image">
                   <img src="img/tutoriais/alterar_datahora.gif" alt="alterar-data">
+                  
               </div>
               <div class="card-content">
                 <h5>Configurar Data e Hora</h5>
               </div>
             </div>
         </div>
-        <div class="col s12 ">
-            <div class="card">
+        <div class="col s12 " id="acessoconfiguracoes">
+            <div class="card" >
               <div class="card-image">
                   <img src="img/tutoriais/acesso_configuracao.gif" alt="acesso-configuracao">
               </div>
@@ -55,7 +81,7 @@
               </div>
             </div>
         </div>
-        <div class="col s12 ">
+        <div class="col s12 " id="configvel">
             <div class="card">
               <div class="card-image">
                   <img src="img/tutoriais/alterar_config.gif" alt="configurar-velocidade">
@@ -65,7 +91,7 @@
               </div>
             </div>
         </div>
-        <div class="col s12 ">
+        <div class="col s12 " id="configtamanho">
             <div class="card">
               <div class="card-image">
                   <img src="img/tutoriais/altera_tamanho.gif" alt="configurar-tamanho">
@@ -75,7 +101,7 @@
               </div>
             </div>
         </div>
-        <div class="col s12 ">
+        <div class="col s12 " id="alterarmodo">
             <div class="card">
               <div class="card-image">
                   <img src="img/tutoriais/altera_modo.gif" alt="alterar-modo">
@@ -87,7 +113,7 @@
               </div>
             </div>
         </div>
-        <div class="col s12 ">
+        <div class="col s12 " id="alteraralvo">
           <div class="card">
             <div class="card-image">
                 <img src="img/tutoriais/altera_alvo.gif" alt="alterar-alvo">
@@ -97,8 +123,8 @@
             </div>
           </div>
         </div>
-        </div>
-        <div class="col s12 ">
+      
+        <div class="col s12 " id="habilitarhistorico">
           <div class="card">
             <div class="card-image">
                 <img src="img/tutoriais/hab_des_hist.gif" alt="habilitar-historico">
@@ -108,7 +134,7 @@
             </div>
           </div>
         </div>
-        <div class="col s12 ">
+        <div class="col s12 " id="ligarsistemacontagem">
             <div class="card">
               <div class="card-image">
                   <img src="img/tutoriais/ligar_equipamento.gif" alt="ligar_equipamento">
@@ -118,7 +144,7 @@
               </div>
             </div>
         </div>
-        <div class="col s12 ">
+        <div class="col s12 " id="zerarcontagem">
             <div class="card">
               <div class="card-image">
                   <img src="img/tutoriais/zerar_contagem.gif" alt="zerar-contagem">
@@ -128,7 +154,7 @@
               </div>
             </div>
         </div>
-        <div class="col s12 ">
+        <div class="col s12 " id="novacontagem">
             <div class="card">
               <div class="card-image">
                   <img src="img/tutoriais/nova_contagem.gif" alt="nova-contagem">
@@ -138,7 +164,7 @@
               </div>
             </div>
         </div>
-        <div class="col s12 ">
+        <div class="col s12 " id="limparcontagem">
             <div class="card">
               <div class="card-image">
                   <img src="img/tutoriais/limpar_tela.gif" alt="limpar-tela">
@@ -148,7 +174,7 @@
               </div>
             </div>
         </div>
-        <div class="col s12 ">
+        <div class="col s12 " id="operarcontinuo">
             <div class="card">
               <div class="card-image">
                   <img src="img/tutoriais/operar_continuo.gif" alt="operar_continuo">
@@ -158,7 +184,7 @@
               </div>
             </div>
         </div>
-        <div class="col s12 ">
+        <div class="col s12 " id="operarlote">
             <div class="card">
               <div class="card-image">
                   <img src="img/tutoriais/operar_lote.gif" alt="operar_lote">
@@ -168,7 +194,7 @@
               </div>
             </div>
         </div>
-        <div class="col s12 ">
+        <div class="col s12 " id="operarautomatico">
             <div class="card">
               <div class="card-image">
                   <img src="img/tutoriais/operar_automatico.gif" alt="operar_automatico">
@@ -178,7 +204,7 @@
               </div>
             </div>
         </div>
-        <div class="col s12 ">
+        <div class="col s12 " id="excluircampos">
             <div class="card">
               <div class="card-image">
                   <img src="img/tutoriais/excluir_param_campos.gif" alt="excluir_param_campos">
@@ -188,7 +214,7 @@
               </div>
             </div>
         </div>
-        <div class="col s12 ">
+        <div class="col s12 " id="excluirhistorico">
             <div class="card">
               <div class="card-image">
                   <img src="img/tutoriais/excluir_historico.gif" alt="excluir_historico">
@@ -198,7 +224,7 @@
               </div>
             </div>
         </div>
-        <div class="col s12 ">
+        <div class="col s12 " id="configwifi">
             <div class="card">
               <div class="card-image">
                   <img src="img/tutoriais/config_wifi.gif" alt="config_wifi">
